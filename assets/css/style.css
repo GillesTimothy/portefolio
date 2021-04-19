@@ -173,6 +173,37 @@ h1, h2, h3, h4, h5, h6 {
   color: #149ddd;
 }
 
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(135, 134, 134, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.interests .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+.interests .icon-box:hover {
+  background: rgba(47, 46, 46, 0.12);
+}
+
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
