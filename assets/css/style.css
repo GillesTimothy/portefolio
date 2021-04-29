@@ -18,7 +18,8 @@ a {
 }
 
 a:hover {
-  color: #37b3ed;
+  color: rgb(26 27 27 / 37%);
+
   text-decoration: none;
 }
 
@@ -52,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: rgb(26 27 27 / 37%);
   transition: background 0.2s ease-in-out;
 }
 
@@ -111,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: rgb(26 27 27 / 37%);
   color: #fff;
   text-decoration: none;
 }
@@ -170,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
-  color: #149ddd;
+  color: #e9ecef;
 }
 
 /*--------------------------------------------------------------
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .interests .icon-box:hover {
-  background: rgba(47, 46, 46, 0.12);
+  background: rgb(26 27 27 / 37%);
 }
 
 
@@ -221,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #149ddd;
+  color: #343a40;;
 }
 
 .mobile-nav-active {
@@ -261,6 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  
 }
 
 #hero h1 {
@@ -282,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #343a40;;
 }
 
 @media (min-width: 1024px) {
@@ -334,7 +336,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #343a40;;
   bottom: 0;
   left: 0;
 }
@@ -364,7 +366,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #343a40;;
 }
 
 .about .content p:last-child {
@@ -386,7 +388,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #343a40;;
   float: left;
 }
 
@@ -418,7 +420,7 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: rgb(26 27 27 / 37%);
 }
 
 /*--------------------------------------------------------------
@@ -453,7 +455,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #343a40;;
 }
 
 /*--------------------------------------------------------------
@@ -470,7 +472,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #343a40;;
   position: relative;
 }
 
@@ -514,7 +516,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #343a40;;
 }
 
 /*--------------------------------------------------------------
@@ -548,7 +550,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: rgb(26 27 27 / 37%);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -591,17 +593,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #343a40;;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgb(26 27 27 / 37%);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #343a40;;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -631,10 +633,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #343a40;;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #343a40;;
 }
 
 .services .icon i {
@@ -647,7 +649,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: rgb(26 27 27 / 37%);
 }
 
 .services .title {
@@ -662,7 +664,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: rgb(26 27 27 / 37%);
 }
 
 .services .description {
@@ -728,6 +730,8 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
@@ -755,7 +759,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: rgb(26 27 27 / 37%) !important;
 }
 
 @media (max-width: 767px) {
@@ -780,7 +784,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #343a40;
   float: left;
   width: 44px;
   height: 44px;
@@ -804,7 +808,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #343a40;
 }
 
 .contact .info .email p {
@@ -831,12 +835,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #343a40;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #343a40;
   color: #fff;
 }
 
@@ -916,7 +920,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #149ddd;
+  background: #343a40;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -925,7 +929,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #37b3ed;
+  background: rgb(26 27 27 / 37%);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1022,7 +1026,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: #343a40 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1110,4 +1114,30 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 50%);
+}
+
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #343a40;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
 }
