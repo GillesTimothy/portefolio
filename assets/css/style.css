@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #03080f;
 }
 
 a {
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: #03080f;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #03080f;
   overflow-y: auto;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #03080f;
 }
 
 #header .profile h1 {
@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #03080f;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -243,13 +243,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/slider-1.2-1024x683.jpg") top center;
   background-size: cover;
 }
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(253, 252, 252, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -397,7 +397,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #03080f;
   margin-left: 60px;
 }
 
@@ -439,7 +439,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #03080f;
 }
 
 .skills .progress .skill .val {
@@ -466,7 +466,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #03080f;
 }
 
 .resume .resume-item {
@@ -482,7 +482,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color:#03080f;
   margin-bottom: 10px;
 }
 
@@ -544,7 +544,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #03080f;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -1094,7 +1094,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #03080f;
 }
 
 #footer .copyright {
